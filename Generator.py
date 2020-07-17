@@ -22,10 +22,10 @@ maxX = x_padding + int(config.get("mapsize", "X_dimension"))
 minY = y_padding
 maxY = y_padding + int(config.get("mapsize", "Y_dimension"))
 
-minX = int(minX)
-maxX = int(maxX)
-minY = int(minY)
-maxY = int(maxY)
+# minX = int(minX)
+# maxX = int(maxX)
+# minY = int(minY)
+# maxY = int(maxY)
 
 
 cMinX = minX - (minX % 9)
